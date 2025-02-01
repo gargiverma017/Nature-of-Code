@@ -1,1 +1,23 @@
+let r=255,g=255,b=255
+let diameter=20
 
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(0);
+}
+
+function draw() {
+  noStroke()
+  fill(r,g,b,100)
+  circle(mouseX,mouseY,diameter)
+  
+  
+}
+
+function mousePressed(){
+  r=random(255)
+  g=random(255)
+  b=random(255)
+
+  diameter=random(20,40)
+}
