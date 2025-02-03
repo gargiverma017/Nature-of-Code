@@ -1,0 +1,13 @@
+let r=255,b=0;
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  r=map(mouseX,0,600,255,0);
+  b=map(mouseX,0,600,0,255);
+  background(r,0,b);
+  
+  fill(0)
+  circle(mouseX,200,20)
+}
