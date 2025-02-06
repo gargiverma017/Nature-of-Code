@@ -7,4 +7,4 @@ To break down and implement key concepts from The Nature of Code. <be>
 
 To practice and build small interactive projects. <be>
 
-To share my progress and encourage others to explore generative art and simulations. <be>
+To share my progress and explore generative art and simulations. <be>
